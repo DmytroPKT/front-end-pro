@@ -2,4 +2,4 @@ function wordsCount(str) {
     return str.split(' ').length;
 }
 
-console.assert(wordsCount('Hello Wrlds!') === 2)
+console.assert(wordsCount('Hello World!') === 2)
