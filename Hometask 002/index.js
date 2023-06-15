@@ -53,42 +53,6 @@ if (isNaN(firstNumber) && isNaN(secondNumber))  {
 
 if (error != true) {
     alert(`${firstNumber} ${operator} ${secondNumber} = ${result}`)
+} else {
+    alert('Please, restart page')
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// switch (operator) {
-//     case "+":
-//         result = firstNumber + secondNumber
-//         break;
-//     case "-":
-//         result = firstNumber - secondNumber
-//         break;
-//     case "*":
-//         result = firstNumber * secondNumber
-//         break;
-//     case "/":
-//         result = firstNumber / secondNumber
-//         break;
-//     default:
-//         error = true
-//         alert(`${operator} - wrong operator`)
-// }
-
-// if (error != true) {
-//     alert(`${firstNumber} ${operator} ${secondNumber} = ${result}`)
-// }
