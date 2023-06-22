@@ -56,7 +56,7 @@ function calc(a, operation, b) {
     return res
 }
 
-//for pull request
+
 function showResult (a, operation, b, result) {
     alert(`${a} ${operation} ${b} = ${result}`);
 }
