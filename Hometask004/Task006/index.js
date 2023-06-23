@@ -6,4 +6,4 @@ while(i <= 500) {
     i++
 };
 
-console.log(`${sum} / ${i-1} = ${sum / i}`)
+console.log(`${sum} / ${i-1} = ${sum / (i-1)}`)
